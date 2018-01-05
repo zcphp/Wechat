@@ -1,0 +1,26 @@
+<view class="feedbcack-title">
+	您的意见和想法对我们非常重要
+</view>
+<view class="feedback-content">
+	<textarea placeholder="您可以畅所欲言~" maxlength="-1"
+	 placeholder-class="other-placeholder-style" />
+</view>
+<view class="feedback-submit">
+	<button bindtap="showModal">提交</button>
+</view>
+
+
+<!-- 确认提交？ -->
+
+
+
+
+
+
+
+
+
+
+
+
+

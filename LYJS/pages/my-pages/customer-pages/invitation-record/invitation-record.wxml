@@ -1,0 +1,14 @@
+<view class="record-page">
+	<view class="recordItem mt-moudel">
+		<view class="record-toux"></view>
+		<view class="record-detail">
+			<view class="record-name">张先生</view>
+			<view class="record-phoneNum miniText">
+				手机号：123-4567-7890
+			</view>
+		</view>
+		<view class="record-icon">
+			<text class="iconfont icon-biaoqian"></text>
+		</view>
+	</view>
+</view>

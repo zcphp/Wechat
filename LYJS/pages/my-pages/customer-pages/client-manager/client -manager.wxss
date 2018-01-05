@@ -1,0 +1,60 @@
+/* pages/my-pages/client/pages/client-manager/client -manager.wxss */
+page {
+	background: #eee;
+}
+.detail-bg {
+	height: 200rpx;
+	background: #b48b6d;
+}
+.detail-toux {
+	width: 100rpx;
+	height: 100rpx;
+	background: #eee;
+	position: absolute;
+	bottom: -30rpx;
+	left: 50%;
+	margin-left: -50rpx;
+	border-radius: 50%;
+	border: 1rpx solid #eee;
+}
+.manager-name {
+	height: 100rpx;
+	padding-top: 20rpx;
+	line-height: 100rpx;
+	text-align: center;
+	background: #fff;
+}
+.manager-info {
+	padding: 0 30rpx;
+	background: #fff;
+}
+.info-item {
+	padding: 18rpx 50rpx;
+	border-top: 2rpx solid #e8e8e8;
+	font-size: 30rpx;
+}
+.infoIcon {
+	position: absolute;
+	top: 18rpx;
+	left: 0;
+	font-size: 40rpx;
+	color: #b48b6d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+.page-erweima {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background: #eee;
+}
+.erweima-moudel {
+	flex: 3;
+	padding: 200rpx 100rpx 160rpx;
+}
+.share-moudel {
+	flex: 2;
+}
+.erweima-box {
+	width: 400rpx;
+	height: 400rpx;
+	margin: 0rpx auto;
+}
+.erweima-text {
+	padding-top: 60rpx;
+	text-align: center;
+}
+.saoyisao {
+	font-size: 36rpx;
+	color: #666;
+}
+
+.share-moudel {
+	padding: 100rpx 60rpx 40rpx;
+	text-align: center;
+	border-top: 1px solid #bbb;
+}
+
+.share-text {
+	width: 260rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+	font-size: 36rpx;
+	color: #666;
+	background: #eee;
+	position: absolute;
+	top: -20rpx;
+	left: 50%;
+	margin-left: -130rpx;
+	z-index: 999;
+}
+.share-icon {
+	padding-top: 34rpx;
+}
+.iconBox {
+	display: inline-block;
+	width: 200rpx;
+	text-align: center;
+}
+.iconItem {
+	width: 100rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+/* 	font-size: 60rpx;*/	
+	margin: 0 auto;
+	color: #fff;
+	background: #62b900;
+	border-radius: 50%;
+}
+.solf-icon {
+	font-size: 60rpx;
+}
+.icon-text {
+	display: inline-block;
+	padding: 20rpx;
+	/* line-height: 30rpx; */
+	font-size: 30rpx;
+}

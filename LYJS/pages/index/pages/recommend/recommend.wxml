@@ -1,0 +1,23 @@
+<!--pages/index/pages/recommend/recommend.wxml-->
+<view class="page-erweima">
+	<view class="erweima-moudel">
+		<view class="erweima-box">
+			<image src="../../../../images/erweima.jpg" />
+		</view>
+		<view class="erweima-text">
+			<text class="saoyisao">微信扫一扫,即可关注哦~</text>
+		</view>
+	</view>
+	<view class="share-moudel pr">
+		<view class="share-line"></view>
+		<view class="share-text">分享给朋友</view>
+		<view class="share-icon">
+			<view class="iconBox">
+				<view class="iconItem">
+					<text class="solf-icon iconfont icon-wechat"></text>
+				</view>
+				<text class="icon-text">微信好友</text>
+			</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,151 @@
+<view style="text-indent:1em" class="p20-moudel miniText">
+	补全信息，以便更全面的评估你的信用状况，本软件过iso27001信息安全管理体系认证，你的个人信息以严格的认证标准进行保护，未经您的授权不会对任何第三方提供
+</view>
+<view class="information-title miniText">基本信息</view>
+<view class="information-box">
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">姓名</text>
+		<view class="itemDetail">张先生</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">绑定手机</text>
+		<view class="itemDetail">123-4567-7890</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">性别</text>
+		<view class="itemDetail">
+			<radio-group>
+				<label>
+					<radio size="20" value="" name="man" />男
+				</label>
+				<label>
+					<radio value="" name="woman" />女
+				</label>
+			</radio-group>
+		</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">学历</text>
+		<view class="itemDetail">大专</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">社保</text>
+		<view class="itemDetail">
+			<radio-group>
+				<label>
+					<radio value="" name="yes" />有
+				</label>
+				<label>
+					<radio value="" name="no" />无
+				</label>
+			</radio-group>
+		</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">职业</text>
+		<view class="itemDetail">公务员</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">社保</text>
+		<view class="itemDetail">
+			<radio-group>
+				<label>
+					<radio value="" name="yes" />有
+				</label>
+				<label>
+					<radio value="" name="no" />无
+				</label>
+			</radio-group>
+		</view>
+		<view class="clearfix"></view>
+	</view>
+</view>
+
+<view class="information-title miniText">个人资产</view>
+<view class="information-box">
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">车辆信息</text>
+		<view class="itemDetail">
+			<radio-group>
+				<label>
+					<radio value="" name="yes" />有
+				</label>
+				<label>
+					<radio value="" name="no" />无
+				</label>
+			</radio-group>
+		</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">房产信息</text>
+		<view class="itemDetail">
+			<radio-group>
+				<label>
+					<radio value="" name="yes" />有
+				</label>
+				<label>
+					<radio value="" name="no" />无
+				</label>
+			</radio-group>
+		</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">保单</text>
+		<view class="itemDetail">
+			<radio-group>
+				<label>
+					<radio value="" name="yes" />有
+				</label>
+				<label>
+					<radio value="" name="no" />无
+				</label>
+			</radio-group>
+		</view>
+		<view class="clearfix"></view>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

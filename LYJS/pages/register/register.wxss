@@ -1,0 +1,74 @@
+.phone-box,.code-box,.finish-box {
+	flex: 1;
+	height: 80rpx;
+	line-height: 80rpx;
+	padding-left: 60rpx;
+	border: 2rpx solid #dbdbdb;
+	border-radius: 12rpx;
+}
+.ico-tel {
+	font-size: 42rpx;
+}
+.icon {
+	top: 6rpx;
+	left: 16rpx;
+}
+.code-box {
+	margin-top: 60rpx;
+}
+.finish-box {
+	margin-top: 100rpx;
+	padding: 0;
+}
+.finishBtn {
+	flex: 1;
+	height: 100%;
+  line-height: 80rpx;
+	background: #b48b6d;
+	color: #fff;
+}
+.input-box {
+	flex:2;
+}
+.phoneNum,.codeNum {
+	line-height: 80rpx;
+	display: inline-block;
+	font-size: 34rpx;
+}
+.button-box {
+	flex: 1;
+}
+.getCode {
+	font-size: 28rpx;
+	color: #fff;
+	background: #b48b6d;
+	line-height: 80rpx;
+	display: inline-block;
+	height: 100%;
+	border: 0;
+}
+
+
+.moudel-link {
+  margin-top: 100rpx;
+}
+.moudel-link navigator {
+  padding: 20rpx;
+  margin: 40rpx 0;
+  border-bottom: 2rpx solid #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

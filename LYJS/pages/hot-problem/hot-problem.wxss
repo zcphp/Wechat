@@ -1,0 +1,44 @@
+.problem-title {
+	font-size: 32rpx;
+	padding: 20rpx;
+}
+.problem-item {
+	position: relative;
+	border-bottom: 4rpx solid #ededed;
+}
+.problem-item:last-child {
+	border: 0;
+}
+.problem {
+	display: inline-block;
+	width: auto;
+	max-width: 80%;
+	padding: 10rpx 0;
+	font-size: 30rpx;
+	color: #666;
+	overflow: hidden;
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+
+.information-title {
+	padding: 20rpx;
+}
+.information-item {
+	padding: 20rpx;
+	background: #fff;
+	border-top: 2rpx solid #e8e8e8;
+}
+.itemIcon {
+	float: left;
+	padding-top: 10rpx;
+	padding-right: 14rpx;
+}
+.itemTilitle {
+	float: left;
+	color: #666;
+}
+.itemDetail {
+	float: right;
+	color: #999;
+}
+.itemDetail label:first-child {
+	margin-right: 8rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

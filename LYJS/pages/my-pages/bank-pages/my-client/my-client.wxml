@@ -1,0 +1,54 @@
+
+<view class="my-client">
+	<view class="client-item" wx:for="{{clientItems}}">
+		<view class="item-hd df">
+			<text class="name">{{item.name}}</text>
+			<block wx:for="{{nameStar}}">
+				<text class="nameIcon iconfont {{item}}"></text>
+			</block>
+		</view>
+		<view class="item-bd df">
+			<view class="item-detail miniText">
+				<view class="phoneNum">
+					手机号：{{item.phoneNum}}
+				</view>
+				<view class="money">
+					意向金额：{{item.money}}万元
+				</view>
+				<view class="date">
+					邀约时间：{{item.date}}
+				</view>
+			</view>
+			<view class="item-state">
+				<view class="state-title">当前状态：</view>
+				<view class="state-text">面谈</view>
+			</view>
+		</view>
+		<view class="item-fun">
+			<button size="mini">更新状态</button>
+		</view>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

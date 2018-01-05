@@ -1,0 +1,40 @@
+<view class="chart-box pr" style='height:{{canvasHeight}}px;'>
+	<image style='height:{{canvasHeight+1}}px;width:{{canvaswidth-20}}px;' src="../../images/chart-bg.jpg"></image>
+	<canvas style='height:{{canvasHeight-15}}px;width:{{canvaswidth-15}}px;' canvas-id="areaCanvas" class="canvas"></canvas> 
+</view>
+
+<view class="discover-fun-moudel">
+	<navigator hover-class="navigator-hover">
+		<view class="discover-fun-item">
+			<text class="icon iconfont icon-biaoqian"></text>
+			<view class="fun-item-content">
+				<view class="fun-item-title">邀请有礼</view>
+				<view class="fun-item-dec">邀请好友赢好礼</view>
+			</view>
+		</view>
+	</navigator>
+	<navigator>
+		<view class="discover-fun-item">
+			<text class="icon iconfont icon-biaoqian"></text>
+			<view class="fun-item-content">
+				<view class="fun-item-title">邀请有礼</view>
+				<view class="fun-item-dec">邀请好友赢好礼</view>
+			</view>
+		</view>
+	</navigator>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

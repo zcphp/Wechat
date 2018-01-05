@@ -1,0 +1,66 @@
+.team-count {
+	width: 100%;
+	background: #fff;
+	padding: 20rpx 80rpx;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.team-count .icon {
+	top: 50%;
+	margin-top: -18rpx;
+	left: 20rpx;
+}
+.team-item {
+	margin-top: 100rpx;
+	padding: 0 30rpx;
+	background: #fff;
+}
+.colleague-pic {
+	flex: 1;
+	padding: 30rpx 0;
+}
+.toux-box {
+	width: 100rpx;
+	height: 100rpx;
+}
+.toux-box image {
+	border-radius: 50%;
+}
+.colleague-detail {
+	flex: 4;
+	padding: 30rpx 0;
+	border-bottom: 2rpx solid #dbdbdb;
+}
+.colleague-phone {
+	padding: 14rpx 0;
+	padding-left: 46rpx;
+}
+.colleague-phone .icon {
+	top: 8rpx;
+	left: 0;
+	font-size: 50rpx;
+}
+.position {
+	display: inline-block;
+	width: 80rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	color: #999;
+	position: absolute;
+	top: 50%;
+	margin-top: -40rpx;
+	right: 0rpx;
+}
+
+
+
+
+
+
+
+
+
+
+

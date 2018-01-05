@@ -1,0 +1,114 @@
+<!--pages/index/pages/product-detail/product-detail.wxml-->
+<view class="product-detail">
+
+	<view class="feature">
+		<view class="mb-moudel">
+			<view class="mb-moudel-hd">产品特色</view>
+			<view class="mb-moudel-bd df">
+				<view class="feature-item">
+					<view class="feature-icon">
+						<text class="iconfont icon-biaoqian"></text>
+					</view>
+					<view class="feature-text">随借随还</view>
+				</view>
+				<view class="feature-item">
+					<view class="feature-icon">
+						<text class="iconfont icon-biaoqian"></text>
+					</view>
+					<view class="feature-text">全线上</view>
+				</view>
+				<view class="feature-item">
+					<view class="feature-icon">
+						<text class="iconfont icon-biaoqian"></text>
+					</view>
+					<view class="feature-text">门槛低</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="apply">
+		<view class="mb-moudel">
+			<view class="mb-moudel-hd">申请条件</view>
+			<view class="mb-moudel-bd df fc">
+				<view class="apply-item pr">
+					<text class="icon iconfont icon-biaoqian"></text>
+					<view class="apply-item-text">
+						<view class="item-dt">国籍</view>
+						<view class="miniText item-dd">必须有中华人民共和国国籍（国内居民）
+						</view>
+					</view>
+				</view>
+				<view class="apply-item pr">
+					<text class="icon iconfont icon-biaoqian"></text>
+					<view class="apply-item-text">
+						<view class="item-dt">年龄</view>
+						<view class="miniText item-dd">借款人年龄21~55周岁
+						</view>
+					</view>
+				</view>
+				<view class="apply-item pr">
+					<text class="icon iconfont icon-biaoqian"></text>
+					<view class="apply-item-text">
+						<view class="item-dt">收入</view>
+						<view class="miniText item-dd">月收入税后不低于3000/月
+						</view>
+					</view>
+				</view>
+				<view class="apply-item pr">
+					<text class="icon iconfont icon-biaoqian"></text>
+					<view class="apply-item-text">
+						<view class="item-dt">居住地</view>
+						<view class="miniText item-dd">需在申请地居住或工作6个月以上
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="process">
+		<view class="mb-moudel">
+			<view class="mb-moudel-hd">办理流程</view>
+			<view class="mb-moudel-bd df">
+				<view class="process-item">
+					<view class="process-icon">
+						<text class="iconfont icon-biaoqian"></text>
+					</view>
+					<view class="process-text">申请贷款</view>
+				</view>
+				<view class="next-flow">
+					<text class="iconfont icon-biaoqian"></text>
+				</view>
+				<view class="process-item">
+					<view class="process-icon">
+						<text class="iconfont icon-biaoqian"></text>
+					</view>
+					<view class="process-text">信息验证/面谈</view>
+				</view>
+				<view class="next-flow">
+					<text class="iconfont icon-biaoqian"></text>
+				</view>
+				<view class="process-item">
+					<view class="process-icon">
+						<text class="iconfont icon-biaoqian"></text>
+					</view>
+					<view class="process-text">在线放款</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="reminder miniText">
+		<text class="warn-tips">温馨提示：</text>
+		请务必本人操作并提供真实信息！您获得借款后需按时偿还，否则将影响您的信用记录并由您承担一切法律责任。
+	</view>
+	
+	<view class="appointment">
+		<button class="appointment-btn">立即预约</button>
+	</view>
+
+</view>
+
+
+
+

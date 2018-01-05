@@ -1,0 +1,83 @@
+.topTab {
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.tabItem {
+	flex: 1;
+	text-align: center;
+	padding: 20rpx 0;
+	color: #999;
+}
+.current {
+	color: #b48b6d;
+	border-bottom: 6rpx solid #b48b6d;
+}
+
+
+.daikuan-page {
+	padding: 90rpx 20rpx 0;
+}
+.daikuan-item {
+	padding: 20rpx;
+	margin-top: 30rpx;
+	background: #fff;
+}
+.item-detail,.item-money,.institution,.state {
+	flex: 1;
+}
+.state {
+	text-align: right;
+	color: #549600;
+}
+.item-bd {
+	display: flex;
+	padding: 20rpx 0;
+}
+.item-detail {
+	margin-right: 20rpx;
+	/* padding-right: 20rpx; */
+	border-right: 2rpx dashed #dbdbdb;
+}
+.item-money {
+	/* padding-left: 26rpx; */
+}
+.money {
+	text-align: center;
+	padding: 20rpx 0;
+	color: #f40;
+}
+.moneyNum {
+	padding: 0 8rpx;
+	font-size: 68rpx;
+}
+.item-detail > view {
+	padding: 4rpx 0;
+}
+.item-fun {
+	text-align: right;
+}
+.funText {
+	color: #f40;
+	font-size: 28rpx;
+}
+.item-fun button {
+	margin-left: 20rpx;
+	font-size: 32rpx;
+	background: #fff;
+	color: #b48b6d;
+	border-color: #b48b6d;
+}
+
+
+
+
+
+
+
+
+
+
+

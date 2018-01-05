@@ -1,0 +1,60 @@
+.top-tab {
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.tab-item {
+	padding: 20rpx 0;
+	text-align: center;
+	flex: 1;
+	font-size: 32rpx;
+	color: #999;
+}
+.current-tab {
+	color: #b48b6d;
+	border-bottom: 8rpx solid #b48b6d;
+}
+
+.select-box {
+	margin-top: 130rpx;
+	padding: 0 30rpx;
+	background: #fff;
+	font-size: 32rpx;	
+}
+.select-list {
+	padding: 20rpx 0;
+	border-bottom: 2rpx solid #ddd;
+}
+checkbox {
+	width: 100%;
+}
+.other {
+	/* display: none; */
+	padding-top: 10rpx;
+}
+.service-fee,.other-fee {
+	flex: 1;
+}
+.service-fee input {
+	width: 100rpx;
+}
+.other-fee input {
+	width: 130rpx;
+}
+input {
+	display: inline-block;
+	text-align: center;
+	border: 2rpx solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+

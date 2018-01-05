@@ -1,0 +1,59 @@
+<view class="detail-page">
+	<view class="detail-list">
+		<view class="list-titl">进度更新</view>
+		<view class="progress">	
+			<view class="progress-item checked done-state">初审</view>
+			<view class="progress-item system-checked current-state">
+				<text class="system-checked-text">系统审核</text>
+			</view>
+			<view class="progress-item signed">
+				<text class="signed-text">签约放款</text>
+			</view>
+		</view>
+	</view>
+	<view class="detail-list">
+		<view class="list-titl">基本信息</view>
+		<view class="list-content">
+			<view class="content-item">
+				<view class="item-titl">申请人</view>
+				<view class="item-con">张先生</view>
+			</view>
+			<view class="content-item">
+				<view class="item-titl">贷款名称</view>
+				<view class="item-con">名称</view>
+			</view>
+			<view class="content-item">
+				<view class="item-titl">贷款类型</view>
+				<view class="item-con">信贷</view>
+			</view>
+			<view class="content-item">
+				<view class="item-titl">申请金额</view>
+				<view class="item-con">￥20万元</view>
+			</view>
+			<view class="content-item">
+				<view class="item-titl">手机号</view>
+				<view class="item-con">123****6789</view>
+			</view>
+		</view>
+	</view>
+	<view class="detail-list">
+		<view class="list-titl">附加文件</view>
+		<view class="file-item">
+			<icon color="#666" size="14" type="success"></icon>
+			复印件
+		</view>
+		<view class="file-item">
+			<icon color="#666" size="14" type="success"></icon>
+			复印件
+		</view>
+		<view class="file-item">
+			<icon color="#666" size="14" type="success"></icon>
+			复印件
+		</view>
+	</view>
+</view>
+<view class="update">更新状态</view>
+
+
+
+

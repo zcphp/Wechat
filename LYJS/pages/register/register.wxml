@@ -1,0 +1,22 @@
+<view class='p40-moudel df'>
+	<form>
+		<view class="phone-box df pr">
+		<text class="icon ico-tel iconfont icon-phone"></text>
+			<view class="input-box">
+				<input class="phoneNum" type="text" placeholder-class="other-ph-style" placeholder="请输入您的手机号码" />
+			</view>
+			<view class="button-box">
+				<button class="fr getCode">获取验证码</button>
+			</view>
+		</view>
+		<view class="code-box pr">
+		<text class="icon iconfont icon-yanzhengma"></text>
+			<view class="input-box">
+				<input class="codeNum" type="text" placeholder-class="other-ph-style" placeholder="请输入验证码" />
+			</view>
+		</view>
+		<view class="finish-box df">
+			<button class="finishBtn">完成</button>
+		</view>
+	</form>
+</view>

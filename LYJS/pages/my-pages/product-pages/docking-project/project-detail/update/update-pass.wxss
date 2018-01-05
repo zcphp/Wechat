@@ -1,0 +1,29 @@
+.update-page {
+	padding: 30rpx;
+}
+.update-box {
+	padding: 0 30rpx;
+	background: #fff;
+}
+.update-list {
+	display: flex;
+	padding: 16rpx 0;
+	border-bottom: 2rpx dashed #ddd;
+	font-size: 30rpx;
+}
+.update-list:last-child {
+	border: 0;
+}
+.list-titl {
+	flex: 1;
+	color: #999;
+}
+.list-con {
+	flex: 1;
+	text-align: right;
+}
+
+
+
+
+

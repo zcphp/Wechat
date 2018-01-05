@@ -1,0 +1,20 @@
+<!--pages/my-pages/client/pages/client-manager/client -manager.wxml-->
+<view class="client-manager">
+	<view class="manager-detail pr">
+		<view class="detail-bg"></view>
+		<view class="detail-toux"></view>
+	</view>
+	<view class="manager-name">张经理</view>
+	<view class="manager-info">
+		<navigator url="###">
+			<view class="info-item pr">
+				<text class="infoIcon iconfont icon-phone"></text>
+					手机号：123-3456-6789
+			</view>
+		</navigator>
+		<view class="info-item pr">
+			<text class="infoIcon iconfont icon-weibiaoti-"></text>
+			性别：男
+		</view>
+	</view>
+</view>

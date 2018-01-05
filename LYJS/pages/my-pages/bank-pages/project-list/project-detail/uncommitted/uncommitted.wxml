@@ -1,0 +1,71 @@
+<view class="detail-page">
+	<view class="detail-item">
+		<view class="item-hd">基本信息</view>
+		<view class="item-bd">
+			<view class="information-list">
+				<view class="list-title">申请人</view>
+				<view class="list-detail">张先生</view>
+			</view>
+			<view class="information-list">
+				<view class="list-title">申请金额</view>
+				<view class="list-detail">20万元 ></view>
+			</view>
+			<view class="information-list">
+				<view class="list-title">贷款类型</view>
+				<view class="list-detail">信贷</view>
+			</view>
+			<view class="information-list">
+				<view class="list-title">已绑定银行卡</view>
+				<view class="list-detail">招商银行（*1234）</view>
+			</view>
+			<view class="information-list">
+				<view class="list-title">手机号</view>
+				<view class="list-detail">123****6789</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="detail-item">
+		<view class="item-hd">附加文件</view>
+		<view class="item-bd">
+			<view class="information-list">
+				<view class="file-select">
+					<checkbox>房产证</checkbox>
+				</view>
+			</view>
+			<view class="information-list">
+				<view class="file-select">
+					<checkbox>房产证</checkbox>
+				</view>
+			</view>
+			<view class="information-list">
+				<view class="file-select">
+					<checkbox>房产证</checkbox>
+				</view>
+			</view>
+			<view class="information-list">
+				<view class="file-select">
+					<checkbox>房产证</checkbox>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+<view class="btn-box">
+	<navigator url="to-product/to-product">
+		<button class="toProduct">提交产品方</button>
+	</navigator>
+</view>
+	<!-- <view class="detail-item" wx:for="{{detailItems}}">
+		<block wx:for="{{item}}" wx:for-item="itemTitle" wx:key="{{list}}">
+			<view class="item-hd">{{itemTitle.itemTitle}}</view>
+		</block>
+		<block wx:for="{{list}}" wx:for-item="list" wx:key="{{list}}">
+			<view class="item-bd">
+				<view class="information-list">
+					<view class="list-title">{{list.listTitle}}</view>
+					<view class="list-detail">{{list.listDetail}}</view>
+				</view>
+			</view>
+		</block>
+	</view> -->

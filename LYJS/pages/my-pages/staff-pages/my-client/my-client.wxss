@@ -1,0 +1,38 @@
+.client-item {
+	margin: 30rpx;
+	padding: 20rpx;
+	background: #fff;
+	position: relative;
+}
+.name {
+	font-size: 32rpx;
+}
+.phone {
+	padding: 8rpx 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

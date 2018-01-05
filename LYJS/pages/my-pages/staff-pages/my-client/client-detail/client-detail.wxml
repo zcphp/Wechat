@@ -1,0 +1,30 @@
+<view class="detail-head">
+	<view class="detail-toux">
+		<image src="../../../../../../images/image.jpg" />
+	</view>
+	<view class="detail-name">
+		<view class="name">张先生</view>
+		<block wx:for="{{starIcon}}">
+			<text style="margin-right:6rpx;color:#fff;font-size:30rpx;" class="iconfont {{item}}"></text>
+		</block>
+	</view>
+	<view class="clearfix"></view>
+</view>
+
+<view class="mt-moudel">
+	<view class="detail-item pr" wx:for="{{detailItems}}">
+		<text class="item-icon icon iconfont {{item.detailIcon}}"></text>
+		<view class="item-titl">{{item.detailTitl}}</view>
+		<view class="item-con">{{item.detailCon}}</view>
+		<view class="clearfix"></view>
+	</view> 
+</view>
+
+
+
+
+
+
+
+
+

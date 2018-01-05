@@ -1,0 +1,67 @@
+.my-client {
+	padding: 0 30rpx;
+}
+
+.client-item {
+	margin-top: 30rpx;
+	padding: 20rpx;
+	background: #fff;
+}
+
+.item-hd {
+	padding-left: 20rpx;
+	padding-bottom: 30rpx;
+}
+.name {
+	margin-right: 20rpx;
+	font-size: 32rpx;
+}
+.nameIcon {
+	margin: 0 6rpx;
+	color: #b48b6d;
+	padding-top: 10rpx;
+	font-size: 28rpx;
+}
+.item-detail {
+	flex: 1;
+	padding: 0 20rpx;
+	border-right: 2rpx dashed #dbdbdb;
+}
+.item-state {
+	flex: 1;
+	padding: 0 20rpx;
+}
+.state-title {
+	font-size: 32rpx;
+	padding-bottom: 10rpx;
+}
+.state-text {
+	text-align: center;
+	font-size: 50rpx;
+	color: #5d9600;
+}
+.item-detail > view {
+	padding-bottom: 10rpx;
+}
+
+.item-fun {
+	padding-top: 10rpx;
+	text-align: right;
+}
+.item-fun button {
+	border-color: #b48b6d;
+	background: #fff;
+	color: #b48b6d;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+
+.my-detail-moudel {
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 30rpx 0 26rpx;
+	background: #fff;
+	border-bottom: 1rpx solid #f0f0f0;
+}
+.detail-toux-moudel {
+	padding: 0 38rpx;
+	text-align: center;
+}
+.toux-box {
+	display: inline-block;
+	border: 1rpx solid #b48b6d;
+	border-radius: 50%;
+	width: 130rpx;
+	height: 130rpx;
+}
+.toux-box image {
+	border-radius: 50%;
+}
+.detail-name-moudel {
+	color: #0e0e0e;
+	font-weight: 600;
+	font-size: 40rpx;
+}
+.detail-level-moudel {
+	text-align: center;
+}
+.job-detail {
+	font-weight: normal;
+	font-size: 26rpx;
+	color: #999;
+}
+.level-box {
+	display: inline-block;
+	width: auto;
+	height: 40rpx;
+	line-height: 40rpx;
+}
+.level-icon {
+	color: #ff5533;
+	margin: 0 6rpx;
+}
+.level-text {
+	color: #b48b6d;
+	margin: 0 16rpx;
+}
+
+.my-mainfun-moudel {
+	display: flex;
+	padding: 30rpx 0;
+	background: #fff;
+}
+.main-item {
+	flex: 1;
+	display: flex;
+}
+.main-item:last-child {
+	border-left: 1rpx solid #f0f0f0;
+}
+.text-titl {
+	padding-bottom: 6rpx;
+	font-weight: 600;
+	font-size: 32rpx;
+}
+.text-dec {
+	font-size: 26rpx;
+	color: #c4c4c4;
+}
+.iconBox {
+	display: inline-block;
+	width: 80rpx;
+	height: 80rpx;
+	text-align: center;
+	line-height: 80rpx;
+	color: #fff;
+	margin: 0 24rpx 0 48rpx;
+	border-radius: 50%;
+}
+.kefuIconbox {
+	background: #fcb830;
+}
+.infoIconbox {
+	background: #5080fc;
+}
+
+
+
+
+.my-fun-moudel {
+	margin-top: 30rpx;
+	/* padding-left: 24rpx; */
+	background: #fff;
+}
+.my-fun-moudel navigator {
+	/* height: 48rpx;
+	line-height: 48rpx; */
+	height: 110rpx;
+	line-height: 110rpx;
+	padding-left: 80rpx;
+	position: relative;
+}
+.my-list-item {
+	height: 48rpx;
+	line-height: 48rpx;
+	padding: 30rpx 20rpx 30rpx 10rpx;
+	border-bottom: 1rpx solid #dbdbdb;
+}
+.my-fun-moudel navigator:last-child .my-list-item{
+	border: 0;
+}
+
+.my-list-item::after {
+	content:" ";
+	display:inline-block;
+	height:20rpx;
+	width:20rpx;
+	border-width:1rpx 1rpx 0 0;
+	border-color:#dbdbdb;
+	border-style:solid;
+	transform:matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+	position:absolute;
+	top:50%;
+	margin-top:-8rpx;
+	right:28rpx;
+}
+.my-icon {
+	position: absolute;
+	color: #b48b6d;
+	font-size: 40rpx;
+	top: 0;
+	/* margin-top: -22rpx; */
+	left: 20rpx;
+}
+.my-list-item-text {
+	font-size: 32rpx;
+	color: #666;
+}

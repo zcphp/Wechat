@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/register",
+    "pages/index/pages/evaluating/evaluating",
+    "pages/index/pages/recommend/recommend",
+    "pages/index/pages/product-detail/product-detail",
+    "pages/my-pages/product-pages/docking-project/project-detail/update/update-pass",
+    "pages/my-pages/product-pages/docking-project/project-detail/project-detail",
+    "pages/my-pages/product-pages/docking-project/docking-project",
+    "pages/my-pages/bank-pages/project-list/project-detail/committed/committed",
+    "pages/my-pages/bank-pages/project-list/project-list",
+    "pages/my-pages/bank-pages/project-list/project-detail/uncommitted/to-product/to-product",
+    "pages/my-pages/bank-pages/project-list/project-detail/uncommitted/uncommitted",
+    "pages/my-pages/bank-pages/my-client/my-client",
+
+
+    "pages/my-pages/staff-pages/my-client/my-client",
+    "pages/my-pages/staff-pages/my-client/client-detail/client-detail",
+    "pages/my-pages/staff-pages/my-project/my-project",
+    "pages/my-pages/staff-pages/my-project/pages/new-project",
+    "pages/my-pages/staff-pages/my-team/my-team",
+    "pages/my-pages/staff-pages/my-information/my-information",
+    "pages/my-pages/staff-pages/my-erweima/erweima",
+
+
+    "pages/my-pages/customer-pages/invitation-record/invitation-record",
+    "pages/my-pages/customer-pages/erweima/erweima",
+    "pages/my-pages/customer-pages/self-information/self-information",
+    "pages/my-pages/customer-pages/daikuan-detail/daikuan-detail",
+    "pages/my-pages/customer-pages/client-manager/client-manager",
+    "pages/my-pages/customer-pages/common-problem/common-problem",
+    "pages/my-pages/customer-pages/feedback/feedback",
+
+    "pages/discover/discover",
+    "pages/hot-problem/problem-detail/problem-detail",
+    "pages/hot-problem/hot-problem",
+    "pages/feedback/feedback",
+    "pages/my-pages/my-pages"
+  ],
+  "window": {
+    "backgroundColor": "#fafafa",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff5533",
+    "navigationBarTitleText": "联银金盛",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff5533",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index-icon.png",
+        "selectedIconPath": "images/indexSelected-icon.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "images/discover.png",
+        "selectedIconPath": "images/discoverSelected.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/my-pages/my-pages",
+        "iconPath": "images/my-icon.png",
+        "selectedIconPath": "images/mySelected-icon.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

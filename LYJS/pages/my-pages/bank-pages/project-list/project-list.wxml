@@ -1,0 +1,90 @@
+<view class="top-tab df">
+	<view class="tab-item current-tab">未移交</view>
+	<view class="tab-item">已确认</view>
+</view>
+
+<view class="project-list">
+	<!-- 未移交 -->
+	<view class="list-item">
+		<view class="item-hd">
+			<view class="client-name">张先生</view>
+			<view class="state">未移交</view>
+		</view>
+		<view class="item-bd">
+			<view class="item-detail miniText">
+				<view class="qishu">贷款期数：—</view>
+				<view class="fangkuan">放款日期：—</view>
+				<view class="huankuan">还款日期：—</view>
+			</view>
+			<view class="item-money">
+				<view class="money-title miniText">放款金额：</view>
+				<view class="money">
+					￥<text class="moneyNum">—</text>万
+				</view>
+			</view>
+		</view>
+		<view class="item-fun">
+			<navigator url="project-detail/uncommitted/uncommitted">
+				<button size="mini" type="default">检查项目	</button>
+			</navigator>
+		</view>
+	</view>
+
+	<!-- 已确认：系统审核 -->
+	<view class="list-item">
+		<view class="item-hd">
+			<view class="client-name">张先生</view>
+			<view class="state committed-state">系统审核</view>
+		</view>
+		<view class="item-bd">
+			<view class="item-detail miniText">
+				<view class="qishu">贷款期数：—</view>
+				<view class="fangkuan">放款日期：—</view>
+				<view class="huankuan">还款日期：—</view>
+			</view>
+			<view class="item-money">
+				<view class="money-title miniText">放款金额：</view>
+				<view class="money">
+					￥<text class="moneyNum">—</text>万
+				</view>
+			</view>
+		</view>
+		<view class="item-fun">
+			<navigator url="project-detail/committed/committed">
+				<button size="mini" type="default">项目详情</button>
+			</navigator>
+		</view>
+	</view>
+
+	<!-- 已确认：已放款 -->
+	<view class="list-item">
+		<view class="item-hd">
+			<view class="client-name">张先生</view>
+			<view class="state committed-state">已放款</view>
+		</view>
+		<view class="item-bd">
+			<view class="item-detail miniText">
+				<view class="qishu">贷款期数：24期</view>
+				<view class="fangkuan">放款日期：2017-12-30</view>
+				<view class="huankuan">还款日期：20日/月</view>
+			</view>
+			<view class="item-money">
+				<view class="money-title miniText">放款金额：</view>
+				<view class="money">
+					￥<text class="moneyNum">2,000</text>万
+				</view>
+			</view>
+		</view>
+		<view class="item-fun">
+			<navigator url="project-detail/committed/committed">
+				<button size="mini" type="default">项目详情</button>
+			</navigator>
+		</view>
+	</view>
+</view>
+
+
+
+
+
+

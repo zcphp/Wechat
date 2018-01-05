@@ -1,0 +1,44 @@
+
+<view class="client-item right-arrow" wx:for="{{pages}}">
+	<navigator url="pages/item.url">
+		<view class="name">
+			{{item.name}}
+			<block wx:for="{{starIcon}}">
+				<text style="margin:4rpx;font-size:28rpx;" class="iconfont {{item}}"></text>
+			</block>
+		</view>
+		<view class="phone miniText">
+			<text>手机号：</text>
+			<text class="phoneNum">{{item.phoneNum}}</text>
+		</view>
+	</navigator>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

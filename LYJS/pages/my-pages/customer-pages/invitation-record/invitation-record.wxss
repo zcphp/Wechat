@@ -1,0 +1,46 @@
+.record-page {
+	padding: 0 30rpx;
+}
+.recordItem {
+	/* display: flex; */
+	height: 100rpx;
+	border-radius: 6rpx;
+}
+.record-toux {
+	/* display: inline-block; */
+	width: 100rpx;
+	height: 100rpx;
+	background: #eee;
+	margin-right: 40rpx;
+	border: 2rpx solid #ededed;
+	border-radius: 50%;
+	float: left;
+}
+.record-detail {
+	/* display: inline-block; */
+	float: left;
+}
+.record-name {
+	font-size: 30rpx;
+	padding: 10rpx 0;
+	color: #666;
+}
+.record-icon {
+	float: right;
+	width: 80rpx;
+	text-align: center;
+	line-height: 100rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

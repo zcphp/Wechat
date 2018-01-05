@@ -1,0 +1,62 @@
+<view class="project-page">
+	<view class="project-item">
+		<view class="item-hd">
+			<view class="hd-info">
+				<view class="name">张先生</view>
+				<view class="idNum miniText">身份证：00000000000000000</view>
+			</view>
+			<view class="hd-detail">详情</view>
+		</view>
+		<view class="item-bd">
+			<view class="daikuan-name">贷款名称贷款名称</view>
+			<view class="bd-content">
+				<view class="content-list">
+					<view class="list-titl">申请金额：</view>
+					<view class="list-con moneyText">￥20万元</view>
+				</view>
+				<view class="content-list">
+					<view class="list-titl">放款金额：</view>
+					<view class="list-con moneyText">—</view>
+				</view>
+				<view class="content-list">
+					<view class="list-titl">进度：</view>
+					<view class="list-con progressText">100%</view>
+				</view>
+			</view>
+		</view>
+		<view class="progress">	
+			<view class="progress-item checked done-state">初审</view>
+			<view class="progress-item system-checked ">
+				<text class="system-checked-text current-state">系统审核</text>
+			</view>
+			<view class="progress-item signed">
+				<text class="signed-text">签约放款</text>
+			</view>
+		</view>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- <view class="state-line current-state pr">
+				<view class="state-text current-state-text talking">面谈</view>
+				<view class="state-text signing">签协议/未签</view>
+				<view class="state-text handed">移交</view>
+			</view> -->

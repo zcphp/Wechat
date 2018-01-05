@@ -1,0 +1,64 @@
+<view class='page-view'> 
+	<!-- 首页轮播 -->
+	<view class="banner">
+		<image src="img/banner01.jpg"></image>
+		<canvas canvas-id="firstCanvas" class="snowCanvas"></canvas>
+	</view>
+	<!-- 信贷评估 -->
+	<view class="car-box">
+		<image src="img/pingu_bg.png"></image>
+	<view class="evaluating">
+		<navigator class="evaluating-link" url="pages/evaluating/evaluating" hover-class="none">
+			<view class="evaluating-icon">
+				<view class="iconBox">
+					<text class="iconfont icon-biaoqian"></text>
+				</view>
+			</view>
+			<view class="evaluating-titl">
+				<view class="titl-text">信贷评估</view>
+				<view class="titl-dd miniText">信贷评估信贷评估信贷评估</view>
+			</view>
+		</navigator>
+	</view>
+	</view>
+	<!-- p3 -->
+	<view class="poduct-moudel">
+		<veiw class="recommend">热门推荐</veiw>
+		<veiw class="item-car-box" wx:for="{{productItems}}" wx:key="i">
+			<image src="{{item.imgSrc}}"></image>
+			<navigator url="pages/{{item.itemUrl}}" >
+				<view class="project-item">
+					<view class="item-logo">
+						<view class="logoBox"></view>
+					</view>
+					<view class="item-detail">
+						<view class="detail-title">{{item.productName}}</view>
+						<view class="detailText">{{item.productDecribe}}</view>
+						<view class="check-detail">查看详情</view>
+					</view>
+				</view>
+			</navigator>
+		</veiw>		
+	</view>
+	<!-- 提示底部 -->
+	<view class="bottomTips">
+		<image src="../../images/indexBottomtips.png"></image>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.detail-head {
+	padding: 40rpx 30rpx;
+	background: #b48b6d;
+}
+.detail-toux {
+	margin-right: 50rpx;
+	width: 120rpx;
+	height: 120rpx;
+	float: left;
+}
+.detail-toux image {
+	border-radius: 50%;
+}
+.detail-name {
+	float: left;
+}
+.name {
+	padding: 10rpx 0;
+	color: #fff;
+}
+.detail-item {
+	padding: 16rpx 30rpx 16rpx 66rpx;
+	border-bottom: 2rpx solid #dbdbdb;
+}
+.item-icon {
+	/* font-size: 56rpx; */
+	top: 16rpx;
+	left: 0;
+}
+.item-titl {
+	float: left;
+	font-size: 32rpx;
+}
+.item-con {
+	float: right;
+	color: #999;
+	font-size: 32rpx;
+}
+
+
+
+
+
+
+
+
+
+
+

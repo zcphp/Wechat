@@ -1,0 +1,41 @@
+.feedbcack-title {
+	font-size: 32rpx;
+	padding: 20rpx;
+
+}
+.feedback-content {
+	background: #fff;
+}
+.feedback-content textarea {
+	height: 200rpx;
+	line-height: 40rpx;
+	padding: 20rpx;
+	font-size: 32rpx;
+}
+
+.other-placeholder-style {
+	font-size: 30rpx;
+	color: #ccc;
+}
+.feedback-submit {
+	margin-top: 40rpx;
+	padding: 20rpx;
+}
+.feedback-submit button {
+	height: 80rpx;
+	line-height: 80rpx;
+	background: #b48b6d;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,200 @@
+<!--客户模块-->
+<view class="my-page">
+	<view class="my-detail-moudel">
+		<view class="detail-toux-moudel">
+			<view class="toux-box">
+				<image src="../../../images/image.jpg" />
+			</view>
+		</view>
+		<view class="detail-name-moudel">
+			<view class="name">张先生</view>
+			<view class="detail-level-moudel">
+				<view class="level-box">
+					<text class="level-icon iconfont icon-star"></text>
+					<text class="level-icon iconfont icon-star"></text>
+					<text class="level-icon iconfont icon-star"></text>
+					<text class="level-icon iconfont icon-star"></text>
+					<text class="level-icon iconfont icon-xing"></text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="my-mainfun-moudel">
+		<view class="main-item">
+			<view class="iconBox kefuIconbox">
+				<text class="iconfont icon-biaoqian"></text>
+			</view>
+			<view class="main-item-text">
+				<view class="text-titl">客服中心</view>
+				<view class="text-dec miniText">咨询服务</view>
+			</view>
+		</view>
+		<view class="main-item">
+			<view class="iconBox infoIconbox">
+				<text class="iconfont icon-biaoqian"></text>
+			</view>
+			<view class="main-item-text">
+				<view class="text-titl">个人信息</view>
+				<view class="text-dec">修改资料</view>
+			</view>
+		</view>
+	</view>
+
+
+	<view class="my-fun-moudel" wx:for="{{customerPages}}" wx:key="{{item}}">
+	    <block wx:for="{{item}}" wx:for-item="list" wx:key="{{list}}">
+	      <navigator url="customer-pages/{{list.url}}">  
+	        <text class="my-icon iconfont {{list.listIcon}}"></text>
+	        <view class="my-list-item">
+	          <text class="my-list-item-text">{{list.zh}}</text>
+	        </view>
+	      </navigator>
+	    </block>
+	</view>
+</view>
+
+<!-- 员工模块 -->
+<view class="my-page">
+	<view class="my-detail-moudel">
+		<view class="detail-toux-moudel">
+			<view class="toux-box">
+				<image src="../../../images/image.jpg" />
+			</view>
+		</view>
+		<view class="detail-name-moudel">
+			<view class="name">张先生</view>
+			<view class="job-detail">
+				<view class="department">部门：电销部</view>
+				<view class="position">职位：部长</view>
+			</view>
+		</view>
+	</view>
+	<view class="my-mainfun-moudel">
+		<view class="main-item">
+			<view class="iconBox kefuIconbox">
+				<text class="iconfont icon-biaoqian"></text>
+			</view>
+			<view class="main-item-text">
+				<view class="text-titl">我的项目</view>
+				<view class="text-dec miniText">共0人</view>
+			</view>
+		</view>
+		<view class="main-item">
+			<view class="iconBox infoIconbox">
+				<text class="iconfont icon-biaoqian"></text>
+			</view>
+			<view class="main-item-text">
+				<view class="text-titl">个人信息</view>
+				<view class="text-dec">修改资料</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="my-fun-moudel" wx:for="{{staffPages}}" wx:key="{{item}}">
+	    <block wx:for="{{item}}" wx:for-item="list" wx:key="{{list}}">
+	      <navigator url="staff-pages/{{list.url}}">  
+	        <view class="my-list-item">
+	          <text class="my-icon iconfont icon-ren"></text>
+	          <text class="my-list-item-text">{{list.zh}}</text>
+	        </view>
+	      </navigator>
+	    </block>
+	</view>
+</view>
+
+<!-- 银行部模块 -->
+<view class="my-page">
+	<view class="my-detail-moudel">
+		<view class="detail-toux-moudel">
+			<view class="toux-box">
+				<image src="../../../images/image.jpg" />
+			</view>
+		</view>
+		<view class="detail-name-moudel">
+			<view class="name">张部长</view>
+			<view class="job-detail">
+				<view class="department">部门：银行部</view>
+				<view class="position">职位：部长</view>
+			</view>
+		</view>
+	</view>
+	<view class="my-mainfun-moudel">
+		<view class="main-item">
+			<view class="iconBox kefuIconbox">
+				<text class="iconfont icon-biaoqian"></text>
+			</view>
+			<view class="main-item-text">
+				<view class="text-titl">项目清单</view>
+				<view class="text-dec miniText">共0项</view>
+			</view>
+		</view>
+		<view class="main-item">
+			<view class="iconBox infoIconbox">
+				<text class="iconfont icon-biaoqian"></text>
+			</view>
+			<view class="main-item-text">
+				<view class="text-titl">个人信息</view>
+				<view class="text-dec">修改资料</view>
+			</view>
+		</view>
+	</view>
+	<view class="my-fun-moudel" wx:for="{{bankPages}}" wx:key="{{item}}">
+	    <block wx:for="{{item}}" wx:for-item="list" wx:key="{{list}}">
+	      <navigator url="bank-pages/{{list.url}}">  
+	        <view class="my-list-item">
+	          <text class="my-icon iconfont icon-ren"></text>
+	          <text class="my-list-item-text">{{list.zh}}</text>
+	        </view>
+	      </navigator>
+	    </block>
+	</view>
+</view>
+
+<!-- 产品方模块 -->
+<view class="my-page">
+	<view class="my-detail-moudel">
+		<view class="detail-toux-moudel">
+			<view class="toux-box">
+				<image src="../../../images/image.jpg" />
+			</view>
+		</view>
+		<view class="detail-name-moudel">
+			<view class="name">张先生</view>
+			<view class="job-detail">
+				<view class="department">部门：XX产品</view>
+				<view class="position">职位：客户经理</view>
+			</view>
+		</view>
+	</view>
+	<view class="my-mainfun-moudel">
+		<view class="main-item">
+			<view class="iconBox kefuIconbox">
+				<text class="iconfont icon-biaoqian"></text>
+			</view>
+			<view class="main-item-text">
+				<view class="text-titl">对接项目</view>
+				<view class="text-dec miniText">共0项</view>
+			</view>
+		</view>
+		<view class="main-item">
+			<view class="iconBox infoIconbox">
+				<text class="iconfont icon-biaoqian"></text>
+			</view>
+			<view class="main-item-text">
+				<view class="text-titl">个人信息</view>
+				<view class="text-dec">修改资料</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="my-fun-moudel" wx:for="{{productPages}}" wx:key="{{item}}">
+	    <block wx:for="{{item}}" wx:for-item="list" wx:key="{{list}}">
+	      <navigator url="product-pages/{{list.url}}">  
+	        <view class="my-list-item">
+	          <text class="my-icon iconfont icon-ren"></text>
+	          <text class="my-list-item-text">{{list.zh}}</text>
+	        </view>
+	      </navigator>
+	    </block>
+	</view>
+</view>

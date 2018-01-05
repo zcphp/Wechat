@@ -1,0 +1,126 @@
+
+page {
+	background: #fafafa;
+}
+.banner {
+	width: 100%;
+	height: 430rpx;
+	position: relative;
+}
+.snowCanvas {
+	width: 100%; 
+	height: 520rpx;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.car-box {
+	height: 187rpx;
+	margin: 0 30rpx;
+	box-shadow: 0rpx 8rpx 10rpx #eee;
+	position: relative;
+	top: -130rpx;
+    border-radius: 8rpx;
+    overflow: hidden;
+}
+.evaluating {
+	width: 100%;
+	background: transparent;
+	border-radius: 6rpx;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.evaluating-link {
+	display: flex;
+	padding: 40rpx 0;
+}
+.evaluating-icon {
+	flex: 1;
+	text-align: center;
+}
+.iconBox {
+	display: inline-block;
+	width: 100rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	background: #fd5838;
+	text-align: center;
+	border-radius: 50%;
+}
+.iconBox text {
+	color: #fff;
+}
+.evaluating-titl {
+	flex: 3;
+}
+.titl-text {
+	padding-bottom: 16rpx;
+	color: #383838;
+	font-weight: 600;
+}
+
+.poduct-moudel {
+	margin: -76rpx 30rpx 20rpx 30rpx;
+}
+.recommend {
+	font-weight: 600;
+	font-size: 36rpx;
+	color: #323232;
+}
+.item-car-box {
+	display: block;
+	box-shadow: 0rpx 8rpx 10rpx #eee;
+	width: 100%;
+	height: 214rpx;
+	margin: 24rpx 0 40rpx 0;
+	position: relative;
+    border-radius: 8rpx;
+    overflow: hidden;
+}
+.item-car-box:last-child {
+	margin-bottom: 0;
+}
+.item-car-box navigator {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.project-item {
+	display: flex;
+	border-radius: 6rpx;
+	padding: 38rpx 0 34rpx 0;
+}
+.item-logo {
+	flex: 3;
+	text-align: center;
+}
+.logoBox {
+	display: inline-block;
+	width: 130rpx;
+	height: 130rpx;
+	background: #fff;
+}
+.item-detail {
+	flex: 7;
+}
+.detail-title {
+	font-size: 32rpx;
+	padding-bottom: 10rpx;
+}
+.detailText {
+	font-size: 24rpx;
+	color: #999;
+	padding-bottom: 20rpx;
+}
+.check-detail {
+	font-size: 28rpx;
+}
+
+
+
+

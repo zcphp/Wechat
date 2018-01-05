@@ -1,0 +1,92 @@
+/* pages/index/pages/product-detail/product-detail.wxss */
+.product-detail {
+	background: #eee;
+	/* height: 2000rpx; */
+}
+.feature,.apply,.process {
+	background: #fff;
+}
+.mb-moudel {
+	margin-bottom: 30rpx;
+	padding: 0 40rpx;
+}
+.mb-moudel-hd {
+	padding: 20rpx 0;
+	font-size: 36rpx;
+	color: #333;
+	border-bottom: 3rpx solid #ededed;
+}
+.feature-item,.process-item {
+	flex: 1;
+	padding: 20rpx;
+	text-align: center;
+}
+.process-item {
+	padding: 20rpx 0;
+}
+.feature-icon,.process-icon {
+	display: inline-block;
+	width: 80rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-radius: 50%;
+	background: #dedede;
+}
+.process-icon {
+	border-radius: 0;
+}
+.feature-text {
+	padding: 10rpx;
+	font-size: 30rpx;
+}
+
+
+
+
+.apply-item {
+	flex: 1;
+	padding: 20rpx 0 20rpx 50rpx;
+}
+.apply-item text.icon {
+	top: 30rpx;
+	left: 0;
+}
+.apply-item-text {
+	display: inline-block;
+}
+.item-dt {
+	font-size: 34rpx;
+	color: #333;
+}
+
+.next-flow {
+	padding-top: 40rpx;
+}
+.process-text {
+	padding: 10rpx;
+	font-size: 28rpx;
+	color: #b48b6d;
+}
+
+.reminder,.appointment {
+	padding: 40rpx;
+}
+.warn-tips {
+	color: #ff4d00;
+}
+.appointment-btn {
+	height: 80rpx;
+	line-height: 80rpx;
+	background: #b48b6d;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+

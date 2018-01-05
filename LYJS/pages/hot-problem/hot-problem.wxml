@@ -1,0 +1,26 @@
+<view class="problem-title">热门问题</view>
+
+<view class="problem-box p20-moudel">
+	<view class="problem-item" wx:for="{{problemItem}}">
+		<navigator>
+			<view class="problem">
+				{{item}}
+			</view>
+			<text class="right-arrow"></text>
+		</navigator>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

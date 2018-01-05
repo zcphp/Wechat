@@ -1,0 +1,101 @@
+.top-tab {
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.tab-item {
+	padding: 20rpx 0;
+	text-align: center;
+	flex: 1;
+	font-size: 32rpx;
+	color: #999;
+}
+.current-tab {
+	color: #b48b6d;
+	border-bottom: 8rpx solid #b48b6d;
+}
+
+
+.project-list {
+	margin-top: 112rpx;
+	padding: 0 30rpx;
+}
+.list-item {
+	background: #fff;
+	padding: 20rpx;
+	margin-top: 30rpx;
+}
+
+.item-hd {
+	display: flex;
+	font-size: 32rpx;
+}
+.client-name,.state {
+	flex: 1;
+}
+.client-name {
+
+}
+.state {
+	text-align: right;
+	color: #f40;
+}
+.committed-state {
+	color: #549600;
+}
+.item-bd {
+	display: flex;
+	padding: 20rpx 0;
+}
+.item-detail {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin-right: 20rpx;
+	/* padding-right: 20rpx; */
+	border-right: 2rpx dashed #dbdbdb;
+}
+.qishu,.fangkuan,.huankuan {
+	flex: 1;
+}
+.item-money {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	/* padding-left: 26rpx; */
+}
+.money-title {
+	flex: 1;
+}
+.money {
+	flex: 1;
+	text-align: center;
+	padding: 20rpx 0;
+	color: #f40;
+}
+.moneyNum {
+	padding: 0 8rpx;
+	font-size: 68rpx;
+}
+.item-detail > view {
+	padding: 4rpx 0;
+}
+
+.item-fun {
+	text-align: right;
+}
+.item-fun button {
+	margin-left: 20rpx;
+	font-size: 32rpx;
+	background: #fff;
+	color: #b48b6d;
+	border-color: #b48b6d;
+}
+navigator {
+	display: inline-block;
+}
+
+
+

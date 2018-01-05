@@ -1,0 +1,37 @@
+<view class="new-project">
+	<view class="project-information df">
+		<view class="information-titl">客户名：</view>
+		<view class="information-box">
+			<input type="text" placeholder-class="other-placeholder-class" placeholder="请输入客户名" />
+		</view>
+	</view><view class="project-information df">
+		<view class="information-titl">性  别：</view>
+		<view class="information-box">
+			<label bindtap="radioTap" class="radio-box selectedRadio">
+				<text class="radio-icon"></text>
+				<text class="radio-title">男</text>
+			</label>
+			<label bindtap="radioTap" class="radio-box">
+				<text class="radio-icon"></text>
+				<text class="radio-title">女</text>
+			</label>
+		</view>
+	</view>
+	<view class="project-information df">
+		<view class="information-titl">手 机：</view>
+		<view class="information-box">
+			<input type="text" placeholder-class="other-placeholder-class" placeholder="请输入客户手机号码" />
+		</view>
+	</view>
+	<view class="project-information df">
+		<view class="information-titl">意向金额：</view>
+		<view class="information-box">
+			<input type="text" placeholder-class="other-placeholder-class" placeholder="请输入客户意向金额" />
+		</view>
+	</view>
+
+
+	<view class="sure-btn">
+		<button>确定</button>
+	</view>
+</view>

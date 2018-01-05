@@ -1,0 +1,51 @@
+<view class="projectTab df">
+	<view class="tabItem current">邀约中</view>
+	<view class="tabItem">已签约</view>
+</view>
+
+<view class="project-page">
+	
+	<!-- 未完成项目 -->
+	<view class="project-item">
+		<view class="item-hd df">
+			<view class="item-name">张先生</view>
+			<view class="item-date miniText">2017-12-27</view>
+		</view>
+		<view class="item-bd">
+			<view class="state-line current-state pr">
+				<view class="state-text current-state-text talking">面谈</view>
+				<view class="state-text signing">签协议/未签</view>
+				<view class="state-text handed">移交</view>
+			</view>
+		</view>
+		<view class="item-fun">
+			<button size="mini" type="default">提交资料</button>
+		</view>
+	</view>
+
+	<!-- 完成项目 -->
+	<view class="project-item">
+		<view class="item-hd df">
+			<view class="item-name">张先生</view>
+			<view class="item-date miniText">2017-12-27</view>
+		</view>
+		<view class="intention-money miniText">意向金额：20万元</view>
+		<view class="item-bd">
+			<view class="state-line done-state pr">
+				<view class="state-text done-state-text talking">面谈</view>
+				<view class="state-text done-state-text signing">签协议/未签</view>
+				<view class="state-text done-state-text handed">移交</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+.project-information {
+	background: #fff;
+	padding: 20rpx 30rpx;
+	border-bottom: 2rpx solid #dbdbdb;
+}
+.project-information:last-child {
+	border: 0;
+}
+.information-titl {
+	width: 160rpx;
+	padding-top: 6rpx;
+	/* padding-right: 20rpx; */
+	font-size: 32rpx;
+}
+.information-box {
+	padding-left: 20rpx;
+}
+.information-box input {
+	font-size: 32rpx;
+}
+.other-placeholder-class {
+	font-size: 30rpx;
+}
+
+
+.radio-box {
+	font-size: 30rpx;
+	margin-right: 26rpx;
+}
+.radio-icon {
+	display: inline-block;
+	width: 18rpx;
+	height: 18rpx;
+	margin-right: 16rpx;
+	border: 2rpx solid #b48b6d;
+	border-radius: 50%;
+}
+.selectedRadio .radio-icon {
+	background: #b48b6d;
+}
+
+.sure-btn {
+	padding: 30rpx;
+}
+.sure-btn button {
+	background: #b48b6d;
+	border-color: #b48b6d;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+

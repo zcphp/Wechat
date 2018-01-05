@@ -1,0 +1,36 @@
+<view class="top-tab df">
+	<view class="tab-item current-tab">无抵押</view>
+	<view class="tab-item">抵押</view>
+</view>
+
+<view class="select-box">
+	<view class="select-list">
+		<view class="institution-select">
+			<checkbox>广发银行</checkbox>
+		</view>
+		<view class="other df">
+			<view class="service-fee">
+				服务费：<input type="text"/> %
+			</view>
+			<view class="other-fee">
+				其他费：<input type="text"/> 元
+			</view>
+		</view>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

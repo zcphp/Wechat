@@ -1,0 +1,308 @@
+<view class="evaluating-page">
+	<view class="evaluating-item">
+		<veiw class="item-hd">基本信息</veiw>
+		<view class="item-bd">
+			<view class="item-list">
+				<view class="list-titl">姓名</view>
+				<view class="list-con">张先生</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">绑定手机</view>
+				<view class="list-con">123-4567-6789</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">性别</view>
+				<view class="list-con">
+					<radio-group class="radio-group" bindchange="radioChange">
+						<label class="radio">
+							<text class="radio-icon {{checked=='man'?'radioSelected':''}}"></text>
+							<radio value="man"/>男
+						</label>
+						<label class="radio">
+							<text class="radio-icon {{checked=='woman'?'radioSelected':''}}"></text>
+							<radio value="woman"/>女
+						</label>
+					</radio-group>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="evaluating-item">
+		<veiw class="item-hd">基本信息</veiw>
+		<view class="item-bd">
+			<view class="item-list">
+				<view class="list-titl">户籍</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入原住地户籍" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">年龄</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入您的年龄" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">学历</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入您的最高学历" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">婚姻</view>
+				<view class="list-con">
+					<radio-group class="radio-group" bindchange="radioChange">
+						<label class="radio">
+							<text class="radio-icon {{checked=='married'?'radioSelected':''}}"></text>
+							<radio value="married"/>已婚
+						</label>
+						<label class="radio">
+							<text class="radio-icon {{checked=='unmarried'?'radioSelected':''}}"></text>
+							<radio value="unmarried"/>未婚
+						</label>
+					</radio-group>
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">子女</view>
+				<view class="list-con">
+					<radio-group class="radio-group" bindchange="radioChange">
+						<label class="radio">
+							<text class="radio-icon {{checked=='haveChild'?'radioSelected':''}}"></text>
+							<radio value="haveChild"/>有
+						</label>
+						<label class="radio">
+							<text class="radio-icon {{checked=='noChild'?'radioSelected':''}}"></text>
+							<radio value="noChild"/>无
+						</label>
+					</radio-group>
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">子女是否独立</view>
+				<view class="list-con">
+					<radio-group class="radio-group" bindchange="radioChange">
+						<label class="radio">
+							<text class="radio-icon {{checked=='independent'?'radioSelected':''}}"></text>
+							<radio value="independent"/>是
+						</label>
+						<label class="radio">
+							<text class="radio-icon {{checked=='dependent'?'radioSelected':''}}"></text>
+							<radio value="dependent"/>否
+						</label>
+					</radio-group>
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">居住情况</view>
+				<view class="list-con">
+					<radio-group class="radio-group" bindchange="radioChange">
+						<label class="radio">
+							<text class="radio-icon {{checked=='ownHouse'?'radioSelected':''}}"></text>
+							<radio value="ownHouse"/>自有房产
+						</label>
+						<label class="radio">
+							<text class="radio-icon {{checked=='noHouse'?'radioSelected':''}}"></text>
+							<radio value="noHouse"/>无自有房产
+						</label>
+					</radio-group>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+	<view class="evaluating-item">
+		<veiw class="item-hd">职业情况</veiw>
+		<view class="item-bd">
+			<view class="item-list">
+				<view class="list-titl">公司性质</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入公司性质" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">公司规模</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入公司规模" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">职位</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入您在公司职位" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">工资代发</view>
+				<view class="list-con">
+					<radio-group class="radio-group" bindchange="radioChange">
+						<label class="radio">
+							<text class="radio-icon {{checked=='payroll'?'radioSelected':''}}"></text>
+							<radio value="payroll"/>有
+						</label>
+						<label class="radio">
+							<text class="radio-icon {{checked=='nopayroll'?'radioSelected':''}}"></text>
+							<radio value="nopayroll"/>无
+						</label>
+					</radio-group>
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">参保情况</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入在公司参保情况" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">社保余额</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入社保余额" />
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="evaluating-item">
+		<veiw class="item-hd">信用记录</veiw>
+		<view class="item-bd">
+			<view class="item-list">
+				<view class="list-titl">贷款还款情况</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入您的还款情况" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">信用卡还款情况</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入信用卡还款情况" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">信用卡使用率</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入您的信用卡使用情况" />
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="evaluating-item">
+		<veiw class="item-hd">偿债能力</veiw>
+		<view class="item-bd">
+			<view class="item-list">
+				<view class="list-titl">当前负债</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入负债情况" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">房产</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入房产类型" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">资产所在地</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入资产所在地" />
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">月均流水</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入月均流水" />
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="evaluating-item">
+		<veiw class="item-hd">其它</veiw>
+		<view class="item-bd">
+			<view class="item-list">
+				<view class="list-titl">家人是否知悉</view>
+				<view class="list-con">
+					<radio-group class="radio-group" bindchange="radioChange">
+						<label class="radio">
+							<text class="radio-icon {{checked=='Know'?'radioSelected':''}}"></text>
+							<radio value="Know"/>是
+						</label>
+						<label class="radio">
+							<text class="radio-icon {{checked=='notKnow'?'radioSelected':''}}"></text>
+							<radio value="notKnow"/>否
+						</label>
+					</radio-group>
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">亲属与您所在地一致</view>
+				<view class="list-con">
+					<radio-group class="radio-group" bindchange="radioChange">
+						<label class="radio">
+							<text class="radio-icon {{checked=='same'?'radioSelected':''}}"></text>
+							<radio value="same"/>是
+						</label>
+						<label class="radio">
+							<text class="radio-icon {{checked=='notSame'?'radioSelected':''}}"></text>
+							<radio value="notSame"/>否
+						</label>
+					</radio-group>
+				</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">共借人</view>
+				<view class="list-con">
+					<input type="text" placeholder="请输入共借人" />
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="evaluating-item">
+		<veiw class="item-hd">加减分</veiw>
+		<view class="item-bd">
+			<view class="item-list">
+				<view class="list-titl">家庭外访情况</view>
+				<view class="list-con">良好</view>
+			</view>
+			<view class="item-list">
+				<view class="list-titl">单位外访情况</view>
+				<view class="list-con">良好</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="finish-btn">完 成</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

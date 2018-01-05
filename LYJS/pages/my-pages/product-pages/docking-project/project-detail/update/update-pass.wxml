@@ -1,0 +1,44 @@
+<view class="update-page">
+	<view class="update-box">
+		<view class="update-list">
+			<view class="list-titl">申请人</view>
+			<view class="list-con">张先生</view>
+		</view>
+		<view class="update-list">
+			<view class="list-titl">申请金额</view>
+			<view class="list-con">￥20万元</view>
+		</view>
+		<view class="update-list">
+			<view class="list-titl">贷款名称</view>
+			<view class="list-con">名称名称</view>
+		</view>
+		<view class="update-list">
+			<view class="list-titl">贷款类型</view>
+			<view class="list-con">信贷</view>
+		</view>
+		<view class="update-list">
+			<view class="list-titl">手机号</view>
+			<view class="list-con">123****6789</view>
+		</view>
+		<view class="update-list">
+			<view class="list-titl">身份证号码</view>
+			<view class="list-con">440000011000111111</view>
+		</view>
+		<view class="update-list">
+			<view class="list-titl">放款金额</view>
+			<view class="list-con">￥20万元</view>
+		</view>
+		<view class="update-list">
+			<view class="list-titl">放款时间</view>
+			<view class="list-con">2017-12-30</view>
+		</view>
+		<view class="update-list">
+			<view class="list-titl">分期</view>
+			<view class="list-con">24期</view>
+		</view>
+		<view class="update-list">
+			<view class="list-titl">绑定银行卡</view>
+			<view class="list-con">招商银行（*1234）</view>
+		</view>
+	</view>
+</view>

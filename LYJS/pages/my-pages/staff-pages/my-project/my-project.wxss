@@ -1,0 +1,123 @@
+.projectTab {
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.tabItem {
+	padding: 20rpx 0;
+	color: #999;
+	font-size: 34rpx;
+	text-align: center;
+	flex: 1;
+}
+.current {
+	border-bottom: 8rpx solid #b48b6d;
+	color: #b48b6d;
+}
+
+.project-page {
+	padding: 90rpx 40rpx 0 40rpx;
+}
+
+
+.project-item {
+	background: #fff;
+	margin-top: 40rpx;
+	padding: 30rpx 20rpx 0;
+	border-radius: 6rpx;
+}
+.item-name,.item-date {
+	flex: 1;
+}
+.item-date {
+	text-align: right;
+}
+
+.item-bd {
+	padding: 60rpx 80rpx 130rpx;
+}
+
+.state-text {
+	width: auto;
+	padding-top: 40rpx;
+	color: #999;
+	position: absolute;
+	top: 0rpx;
+}
+.state-text::before {
+	content: "";
+	width: 20rpx;
+	height: 20rpx;
+	border: 8rpx solid #999;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	margin-top: -14rpx;
+	left: 50%;
+	margin-left: -14rpx;
+}
+/* 当前状态 */
+.current-state-text {
+	color: #f40;
+}
+.current-state-text::before {
+	border-color: #f40;
+}
+/* 完成状态 */
+.done-state-text {
+	color: #549600;
+}
+.done-state-text::before {
+	border-color: #549600;
+}
+.talking {
+	left: -48rpx;
+}
+.signing {
+	left: 50%;
+	margin-left: -100rpx;
+}
+.handed {
+	right: -48rpx;
+}
+.state-line {
+	height: 6rpx;
+	width: 100%;
+	/* border-bottom: 6rpx solid; */
+	background-image: linear-gradient(to right,#999,#999);
+}
+.current-state {
+	background-image: linear-gradient(to right,#f40 50%,#999 50%);
+}
+.done-state {
+	background-image: linear-gradient(to right,#549600 50%,#549600 50%);
+}
+
+.item-fun {
+	border-top: 2rpx solid #dbdbdb;
+	text-align: right;
+	padding: 20rpx 0;
+}
+.item-fun button {
+	border-color: #b48b6d;
+	color: #b48b6d;
+	background: #fff;
+}
+
+.intention-money {
+	padding: 20rpx 0;
+}
+
+
+
+
+
+
+
+
+
+
+

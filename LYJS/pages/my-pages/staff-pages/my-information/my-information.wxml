@@ -1,0 +1,48 @@
+<view class="information-title miniText">基本信息</view>
+<view class="information-box">
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">姓名</text>
+		<view class="itemDetail">张经理</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">绑定手机</text>
+		<view class="itemDetail">123-4567-7890</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">性别</text>
+		<view class="itemDetail">
+			<radio-group>
+				<label>
+					<radio size="20" value="" name="man" />男
+				</label>
+				<label>
+					<radio value="" name="woman" />女
+				</label>
+			</radio-group>
+		</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">部门</text>
+		<view class="itemDetail">电销部</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">职位</text>
+		<view class="itemDetail">部长</view>
+		<view class="clearfix"></view>
+	</view>
+	<view class="information-item">
+		<text class="itemIcon iconfont icon-biaoqian"></text>
+		<text class="itemTilitle">工号</text>
+		<view class="itemDetail">001</view>
+		<view class="clearfix"></view>
+	</view>
+</view>

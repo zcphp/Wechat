@@ -1,0 +1,40 @@
+<view class="team-page">
+	<view class="team-count">
+		<text class="icon iconfont icon-biaoqian"></text>
+		<text class="colleague-text">同事（222）</text>
+	</view>
+
+
+	<view class="team-item">
+		<view class="item-box df">
+			<view class="colleague-pic">
+				<view class="toux-box">
+					<image src="../../../../../images/image.jpg"/>
+				</view>
+			</view>
+			<view class="colleague-detail pr">
+				<view class="colleague-name">张成员</view>
+				<view class="colleague-phone miniText pr">
+					<text class="icon iconfont icon-phone"></text>
+					123-4567-8912
+				</view>
+				<view class="position">职位</view>
+			</view>
+		</view>
+		<view class="item-box df">
+			<view class="colleague-pic">
+				<view class="toux-box">
+					<image src="../../../../../images/image.jpg"/>
+				</view>
+			</view>
+			<view class="colleague-detail pr">
+				<view class="colleague-name">张成员</view>
+				<view class="colleague-phone miniText pr">
+					<text class="icon iconfont icon-phone"></text>
+					123-4567-8912
+				</view>
+				<view class="position">职位</view>
+			</view>
+		</view>
+	</view>
+</view>

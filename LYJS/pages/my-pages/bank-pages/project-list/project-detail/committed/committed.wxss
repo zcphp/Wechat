@@ -1,0 +1,152 @@
+.top-tab {
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.tab-item {
+	padding: 20rpx 0;
+	text-align: center;
+	flex: 1;
+	font-size: 32rpx;
+	color: #999;
+}
+.current-tab {
+	color: #b48b6d;
+	border-bottom: 8rpx solid #b48b6d;
+}
+
+.loading-page {
+	height: 100%;
+	padding: 0 30rpx;
+}
+.history-page {
+	padding: 0 30rpx 0 100rpx;
+	position: relative;
+}
+.history {
+	height: 100%;
+}
+.time-line {
+	width: 6rpx;
+	height: 100%;
+	background: #b48b6d;
+	position: absolute;
+	top: 40rpx;
+	left: 40rpx;
+}
+.history-item {
+	margin-bottom: 40rpx;
+	padding: 0 20rpx;
+	background: #fff;
+	font-size: 30rpx;
+	border-radius: 10rpx;
+}
+.history-hd {
+	padding: 20rpx 0;
+}
+
+.item-list {
+	display: flex;
+	padding: 16rpx 0;
+	border-bottom: 2rpx dashed #ddd;
+}
+.item-list:last-child {
+	border: 0;
+}
+.list-jigou,.list-money,.list-state {
+	flex: 1;
+	text-align: center;
+}
+.done-text {
+	color: #549600;
+}
+.paying-text {
+	color: #f40;
+}
+.arrow-left {
+	display:inline-block;
+    width:0;
+    height:0;
+    border-width:20rpx 20rpx 20rpx 0;
+    border-style:solid;
+    border-color:transparent #fff transparent transparent;/*透明 黄 透明 透明 */
+    position:absolute;
+    top:20rpx;
+    left:-18rpx;
+}
+.line-dot {
+	display: inline-block;
+	width: 17rpx;
+	height: 17rpx;
+	background: #fff;
+	border: 6rpx solid #b48b6d;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -10rpx;
+	left: -50rpx;
+}
+
+.loading {
+	display: none;
+}
+.detail-item {
+	margin-top: 30rpx;
+}
+.item-hd {
+	font-size: 30rpx;
+}
+.item-bd {
+	padding: 0 38rpx;
+	margin-top: 30rpx;
+	background: #fff;
+	border-radius: 8rpx;
+}
+.information-list {
+	display: flex;
+	font-size: 30rpx;
+	padding: 16rpx 0;
+	border-bottom: 2rpx dashed #ddd;
+}
+.list-title {
+	flex: 1;
+	color: #999;
+}
+.list-detail {
+	flex: 1;
+	text-align: right;
+}
+.information-list:last-child {
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

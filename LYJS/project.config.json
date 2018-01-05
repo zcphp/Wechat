@@ -1,0 +1,74 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.7.0",
+	"appid": "wx4bd0d16a01627b86",
+	"projectname": "%E8%81%94%E9%93%B6%E9%87%91%E7%9B%9B",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "客户-我的",
+					"pathName": "pages/my-pages/client/client",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "银行-我的",
+					"pathName": "pages/my-pages/bank/bank",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "产品-我的",
+					"pathName": "pages/my-pages/product/product",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "员工-我的",
+					"pathName": "pages/my-pages/telesales/telesales",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "已绑定-我的",
+					"pathName": "pages/my-pages/my-pages",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "发现",
+					"pathName": "pages/discover/discover",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "产品页",
+					"pathName": "pages/index/pages/product-detail/product-detail",
+					"query": ""
+				}
+			]
+		}
+	}
+}

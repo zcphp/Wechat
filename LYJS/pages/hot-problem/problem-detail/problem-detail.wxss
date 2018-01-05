@@ -1,0 +1,10 @@
+.problem {
+	font-size: 30rpx;
+	color: #666;
+	border-bottom: 4rpx solid #ededed;
+}
+.answers {
+	font-size: 28rpx;
+	line-height: 40rpx;
+	text-indent: 2em;
+}

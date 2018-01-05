@@ -1,0 +1,171 @@
+<view class="top-tab df">
+	<view class="tab-item current-tab">正在进行</view>
+	<view class="tab-item">历史记录</view>
+</view>
+
+<!-- 历史记录 -->
+<view class="history-page mt-tab">
+	<view class="time-line"></view>
+	<view class="history">
+		<view class="history-item pr">
+			<view class="history-hd">2017-12-30</view>
+			<view class="history-bd">
+				<view class="item-list">
+					<view class="list-jigou">银行/机构</view>
+					<view class="list-money">放款金额</view>
+					<view class="list-state">状态</view>
+				</view>
+				<view class="item-list">
+					<view class="list-jigou">广发银行</view>
+					<view class="list-money">￥20万元</view>
+					<view class="list-state">已结清</view>
+				</view>
+				<view class="item-list">
+					<view class="list-jigou">广发银行</view>
+					<view class="list-money">￥20万元</view>
+					<view class="list-state">已结清</view>
+				</view>
+				<view class="item-list">
+					<view class="list-jigou">广发银行</view>
+					<view class="list-money">￥20万元</view>
+					<view class="list-state">已结清</view>
+				</view>
+			</view>
+			<view class="arrow-left">
+				<view class="line-dot"></view>
+			</view>
+		</view>
+
+		<view class="history-item pr">
+			<view class="history-hd">2017-12-30</view>
+			<view class="history-bd">
+				<view class="item-list">
+					<view class="list-jigou">银行/机构</view>
+					<view class="list-money">放款金额</view>
+					<view class="list-state">状态</view>
+				</view>
+				<view class="item-list">
+					<view class="list-jigou">广发银行</view>
+					<view class="list-money">￥20万元</view>
+					<view class="list-state done-text">已结清</view>
+				</view>
+				<view class="item-list">
+					<view class="list-jigou">广发银行</view>
+					<view class="list-money">￥20万元</view>
+					<view class="list-state paying-text">已结清</view>
+				</view>
+				<view class="item-list">
+					<view class="list-jigou">广发银行</view>
+					<view class="list-money">￥20万元</view>
+					<view class="list-state done-text">已结清</view>
+				</view>
+			</view>
+			<view class="arrow-left">
+				<view class="line-dot"></view>
+			</view>
+		</view>
+	</view>
+</view>
+<!-- 正在进行 -->
+<view class="loading-page mt-tab">
+	<view class="loading">
+		<view class="detail-item">
+			<view class="item-hd">基本信息</view>
+			<view class="item-bd">
+				<view class="information-list">
+					<view class="list-title">申请人</view>
+					<view class="list-detail">张先生</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">申请金额</view>
+					<view class="list-detail">200,000</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">贷款类型</view>
+					<view class="list-detail">信贷</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">已绑定银行卡</view>
+					<view class="list-detail">招商银行（*1234）</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">手机号</view>
+					<view class="list-detail">123****6789</view>
+				</view>
+			</view>
+		</view>
+		<view class="detail-item">
+			<view class="item-hd">银行/机构</view>
+			<view class="item-bd">
+				<view class="information-list">
+					<view class="list-title">银行/机构</view>
+					<view class="list-detail">中国银行</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">审核进度</view>
+					<view class="list-detail">已放款</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">申请金额</view>
+					<view class="list-detail">60,000</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">放款金额</view>
+					<view class="list-detail">50,000</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">放款时间</view>
+					<view class="list-detail">2017-12-30</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">还款时间</view>
+					<view class="list-detail">20日/月</view>
+				</view>
+			</view>
+
+			<view class="item-bd">
+				<view class="information-list">
+					<view class="list-title">银行/机构</view>
+					<view class="list-detail">广发银行</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">审核进度</view>
+					<view class="list-detail">已放款</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">申请金额</view>
+					<view class="list-detail">60,000</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">放款金额</view>
+					<view class="list-detail">50,000</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">放款时间</view>
+					<view class="list-detail">2017-12-30</view>
+				</view>
+				<view class="information-list">
+					<view class="list-title">还款时间</view>
+					<view class="list-detail">20日/月</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

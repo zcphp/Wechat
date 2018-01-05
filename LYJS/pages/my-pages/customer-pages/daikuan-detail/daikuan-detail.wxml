@@ -1,0 +1,79 @@
+<view class="topTab df">
+	<view bindtap="tabSwitch" class="tabItem current">已放款</view>
+	<view bindtap="tabSwitch" class="tabItem">申请中</view>
+	<view bindtap="tabSwitch" class="tabItem">已结清</view>
+</view>
+
+<view class="daikuan-page">
+	<view class="daikuan-item">
+		<view class="item-hd df">
+			<view class="institution">贷款机构</view>
+			<view class="state">已放款</view>
+		</view>
+		<view class="item-bd">
+			<view class="item-detail miniText">
+				<view class="qishu">贷款期数：24期</view>
+				<view class="fangkuan">放款日期：2017-12-12</view>
+				<view class="huankuan">还款日期：20日/月</view>
+			</view>
+			<view class="item-money">
+				<view class="miniText">放款金额</view>
+				<view class="money">
+					￥<text class="moneyNum">20,000</text>万
+				</view>
+			</view>
+		</view>
+		<view class="item-fun">
+			<text class="funText">申请结清受理中</text>
+			<button size="mini" type="default">申请结清</button>
+		</view>
+	</view>
+
+	<view class="daikuan-item">
+		<view class="item-hd df">
+			<view class="institution">贷款机构</view>
+			<view class="state">系统审核</view>
+		</view>
+		<view class="item-bd">
+			<view class="item-detail miniText">
+				<view class="qishu">贷款期数：—</view>
+				<view class="fangkuan">放款日期：—</view>
+				<view class="huankuan">还款日期：—</view>
+			</view>
+			<view class="item-money">
+				<view class="miniText">放款金额</view>
+				<view class="money">
+					￥<text class="moneyNum">--</text>万
+				</view>
+			</view>
+		</view>
+		<view class="item-fun">
+			<text class="funText">申请结清受理中</text>
+			<button size="mini" type="default">申请结清</button>
+		</view>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

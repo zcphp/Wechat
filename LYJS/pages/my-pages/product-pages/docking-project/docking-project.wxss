@@ -1,0 +1,133 @@
+.project-page {
+	padding: 0 30rpx;
+}
+.project-item {
+	/* padding: 0 20rpx; */
+	margin-top: 30rpx;
+	background: #fff;
+}
+
+.item-hd {
+	padding: 20rpx;
+	display: flex;
+	border-bottom: 2rpx dashed #dbdbdb;
+}
+.hd-info {
+	flex: 5;
+}
+.name {
+	font-size: 36rpx;
+	padding-bottom: 10rpx;
+}
+.hd-detail {
+	flex: 1;
+	text-align: center;
+	color: #b48b6d;
+	font-size: 34rpx;
+}
+
+.item-bd {
+	padding: 20rpx;
+}
+.daikuan-name {
+	font-size: 32rpx;
+	padding-bottom: 10rpx;
+}
+.content-list {
+	display: flex;
+	font-size: 30rpx;
+	padding-bottom: 10rpx;
+}
+.list-titl {
+	flex: 2;
+	color: #999;
+}
+.list-con {
+	flex: 1;
+	text-align:center;
+}
+.moneyText {
+	color: #f40;
+}
+.progressText {
+	color: #549600;
+}
+
+.progress {
+	display: flex;
+	padding: 0 80rpx 20rpx 80rpx;
+}
+.progress-item {
+	/* flex: 1; */
+	position: relative;
+	padding-top: 20rpx;
+	font-size: 32rpx;
+	color: #ccc;
+	/* text-align: center; */
+	border-top: 4rpx solid #ccc;
+}
+.progress-item::before {
+	content: "";
+	display: inline-block;
+	width: 16rpx;
+	height: 16rpx;
+	border: 6rpx solid #ccc;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: -10rpx;
+	left: 0;
+}
+.system-checked-text,.signed-text {
+	display: inline-block;
+	width: 150rpx;
+	position: absolute;
+}
+.system-checked-text {
+	left: -50rpx;
+}
+.signed-text {
+	left: -100rpx;
+}
+.checked {
+	flex: 5;
+}
+.system-checked {
+	flex: 5;
+}
+
+.done-state {
+	color: #549600;
+	border-top-color: #549600;
+}
+.done-state::before {
+	border-color: #549600;
+}
+.current-state {
+	color: #f40;
+}
+.current-state::before {
+	border-color: #f40;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
