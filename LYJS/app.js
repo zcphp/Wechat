@@ -1,6 +1,6 @@
 App({
   //定义常量
-  APPID: 'ac5296896b11ad45D6',
+  APPID: 'ac5296896b11ad45D611',
   XCXVERSION: '1.0',//版本号
   DOMAIN_NAME: 'https://lyjs.daicaicat.com/Smallprogram/Request/', //接口地址
   globals: {
